@@ -1,0 +1,299 @@
+@charset "utf-8";
+*{
+	margin: 0;
+	padding: 0;
+}
+html{
+	width: 100%;
+	height: 100%;
+}
+a{
+	text-decoration: none;
+	color: rgba(255,255,255,0.7);
+}
+body{
+	background: url(picture/back.jpg) no-repeat center 0;
+	width: 100%;
+	min-width: 1256px;
+	max-width: 1920px;
+}
+.all{
+	width: 1008px;
+	margin: 250px auto;
+}
+.all .left{
+	float: left;
+	width: 580px;
+	height: 420px;
+	box-shadow: 0px 0px 6px #ccc;
+	position: relative;
+} 
+.left .h1_first{
+	color: rgba(255,255,255,0.7);
+	letter-spacing: 2px;
+	margin: 20px 0 0 20px
+}
+.left .h1_second{
+	color: rgba(255,255,255,0.7);
+	letter-spacing: 2px;
+	margin: 80px 0 0 200px;
+}
+.left h2{
+	color: rgba(255,255,255,0.7);
+	letter-spacing: 2px;
+	margin: 55px 0 0 80px;
+}
+.left ul{
+	list-style: none;
+	position: absolute;
+	bottom: 10px;
+	left: 30px;
+	width: 100%;
+}
+.left ul li{
+	float: left;
+	height: 50px;
+	width: 30%;
+	text-align: center;
+	line-height: 50px;
+	color: rgba(255,255,255,0.7);
+	font-size: 18px;
+	letter-spacing: 2px;
+	border-right: 2px solid rgba(255,255,255,0.7);
+}
+.left ul li:last-child{
+	border: none;
+}
+#section{
+	float: right;
+	width: 420px;
+	background-color:rgba(255,255,255,0.15);
+	border-radius: 8px;
+	position: relative;
+	box-shadow: 0px 0px 8px #fff;
+}
+.top ul{
+	width: 100%;
+	height: 65px;
+}
+#section .top ul li{
+	list-style: none;
+	float: left;
+	width: 49%;
+	height: 65px;
+	line-height: 65px;
+	text-align: center;
+	display: block;
+  color: rgba(255,255,255,0.7);
+	border-radius: 4px;
+	letter-spacing: 10px;
+	font-size: 22px;
+	cursor: pointer;
+	text-shadow: 0px 0px 2px #fff;
+}
+.top .top_register{
+	margin: 2px 0 0 3px;
+	background-color: rgba(114,200,213,0.4);
+}
+#section .top ul li:first-child{
+	background: rgba(114,200,213,0.4);
+}
+.top .login{
+	margin: 2px 0 0 2px;
+}
+.center{
+	width: 400px;
+	height: 335px;
+	padding-top: 15px;
+	position: relative;
+}
+.box{
+	width: 390px;
+	height: 230px;
+	margin: 0 15px; 
+	border-radius: 6px;
+	box-shadow:0px 0px 6px rgba(114,200,213);
+}
+.box input{
+	height: 50px;
+	width: 95%;
+	margin: 10px 8px;
+	outline: none;
+	font-size: 18px;
+	letter-spacing: 2px;
+	text-indent: 50px;
+	background-color: transparent;
+	border: none;
+	border-bottom: 1px solid #ccc;
+	color: #ccc;
+}
+.box .input_first{
+	background: url(picture/user.svg) no-repeat 10px center;
+	background-size: 20px 20px;
+}
+.box .input_second{
+	background: url(picture/password.svg) no-repeat 10px center;
+	background-size: 20px 20px;
+}
+.box .input_third{
+	background: url(picture/yanz.svg) no-repeat 10px center;
+	background-size: 20px 20px;
+}
+.box input::-webkit-input-placeholder,.login_box input::-webkit-input-placeholder{
+	color: #ccc;
+}
+.box input::-moz-placeholder,.login_box input::-moz-placeholder{ 
+   color: #fff;
+}
+.box input::-ms-placeholder,.login_box input::-ms-placeholder{ 
+   color: #fff;
+}
+.box input::-o-placeholder,.login_box input::-o-placeholder{ 
+   color: #fff;
+}
+.box .input_z{
+	box-shadow: 0px 0px 6px #ccc;
+}
+.center .checkbox{
+	width: 16px;
+	height: 16px;
+	position: absolute;
+	bottom: 75px;
+	left: 18px;
+	opacity: 0.8;
+}
+.center .check{
+	display: inline-block;
+	margin: 10px 0 0 40px;
+	color: #ccc;
+}
+.center .register,.center .reset{
+	height: 45px;
+	width: 120px;
+	border-radius: 4px;
+	letter-spacing: 4px;
+	background: rgba(114,200,213,0.4);
+	border: none;
+	color: #fff;
+	font-size: 20px;
+	position: absolute;
+	bottom: 17px;
+}
+.center .register{
+	left: 18px;
+}
+#section .pswBack{
+	display: inline-block;
+	width: 22px;
+	height: 22px;
+	position: absolute;
+	right: 40px;
+	top: 180px;
+}
+.pswBack img{
+	width: 22px;
+	height: 22px;
+	cursor: pointer;
+}
+#section .random{
+	display: inline-block;
+	width: 100px;
+	height: 40px;
+	line-height: 40px;
+	position: absolute;
+	right: 40px;
+	top: 235px;
+	box-shadow: 0px 0px 6px #ccc;
+	text-align: center;
+	color: #ccc;
+	cursor: pointer;
+	letter-spacing: 3px;
+}
+#section .random_two{
+	box-shadow: 0px 0px 12px #ccc;
+}
+
+#section .login_box{
+	width: 400px;
+	height: 325px;
+	position: absolute;
+	top: 80px;
+	left: 8px;
+	display: none;
+}
+.login_box .login_form{
+	width: 400px;
+	height: 245px;
+	box-shadow:0px 0px 6px rgba(114,200,213);
+	border-radius: 6px;
+}
+.login_box .login_form input{
+	margin: 8px auto 0 8px;
+	width: 380px;
+	height: 50px;
+	outline: none;
+	font-size: 18px;
+	letter-spacing: 2px;
+	text-indent: 50px;
+	background-color: transparent;
+	border: none;
+	border-bottom: 1px solid #ccc;
+	color: #ccc;
+}
+.login_form .login_input1{
+	background: url(picture/login_user.svg) no-repeat 12px center;
+	background-size: 20px 20px;
+}
+.login_form .login_input2,.login_form .login_input3{
+	background: url(picture/login_pass.svg) no-repeat 12px center;
+	background-size: 20px 20px;
+}
+.login_form .login_input4{
+	background: url(picture/login_random.svg) no-repeat 12px center;
+	background-size: 25px 25px;
+}
+.login_box .login_checkbox{
+	display: inline-block;
+	opacity: 0.8;
+	margin: 10px 0 0 10px;
+}
+.login_box .login_check{
+	display: inline-block;
+	margin: 10px 0 0 10px;
+	color: #ccc;
+}
+.login_box .back_login{
+	margin: 10px 0 0 60px;
+	color: #ccc;
+	text-decoration: underline;
+  cursor: pointer;
+	display: none;
+}
+.login_box .confirm_register{
+	display: block;
+	width: 380px;
+	height: 40px;
+	margin: 7px 0 0 10px;
+	border-radius: 6px;
+	background-color: rgba(114,200,213,0.4);
+	border: none;
+	color: #ccc;
+	font-size: 20px;
+	font-weight: bold;
+	letter-spacing: 40px;
+	text-align: center;
+}
+.login_box .login_random{
+	width: 115px;
+	line-height: 45px;
+	position: absolute;
+	top: 182px;
+	right: 20px;
+	box-shadow: 0px 0px 6px #ccc;
+	display: inline-block;
+	color: #ccc;
+	cursor: pointer;
+	letter-spacing: 2px;
+	text-align: center;
+}
+
